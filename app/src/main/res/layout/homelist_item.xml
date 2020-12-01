@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+    android:id="@+id/homelistbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+        android:src="@drawable/homelistimagedemo"
+        android:scaleType="centerCrop"
+    ></ImageView>
+    <TextView
+        android:id="@+id/homelisttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="午后餐点音乐"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        ></TextView>
+    <ImageView
+        android:id="@+id/homelistimg"
+        android:src="@drawable/hot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        ></ImageView>
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView >

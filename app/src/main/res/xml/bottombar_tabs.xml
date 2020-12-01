@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+id="@+id/tab_shouye"
+icon="@drawable/home"
+title="首页" />
+<tab
+id="@+id/tab_mv"
+icon="@drawable/mv"
+title="MV" />
+<tab
+id="@+id/tab_vbang"
+icon="@drawable/bangdan"
+title="V榜" />
+<tab
+id="@+id/tab_yuedan"
+icon="@drawable/music"
+title="悦单" />
+    </tabs>
